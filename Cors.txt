@@ -1,4 +1,4 @@
-    tutorial git 
+    Tambahkan ini juka menemukan error karena cors
     
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Request-Methods', '*');
