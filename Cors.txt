@@ -1,0 +1,9 @@
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Request-Methods', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'OPTIONS, GET, DELETE');
+    res.setHeader('Access-Control-Allow-Headers', '*');
+    if (req.method.toUpperCase() === 'OPTIONS') {
+        res.writeHead(204);
+        res.end();
+        return;
+    }
