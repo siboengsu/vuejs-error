@@ -1,5 +1,3 @@
-    How to fix error vue js event cors
-    
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Request-Methods', '*');
     res.setHeader('Access-Control-Allow-Methods', 'OPTIONS, GET, DELETE');
